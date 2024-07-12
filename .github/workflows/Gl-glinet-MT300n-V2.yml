@@ -1,14 +1,14 @@
 #
-# Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
+# Copyright (c) 2024-2030 Aziz Gl-glinet-MT300n-V2
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/Actions-OpenWrt
+# https://github.com/aziz3000/By-gl-inet-openwrt
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt Gl-MT300n-V2
+name:  Gl-glinet-MT300n-V2 % "%Y.%m.%d-%H%M" 
 
 on:
   repository_dispatch:
@@ -17,16 +17,16 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        #default: 'true'
-        default: 'false'
+        default: 'true'
+        #default: 'false'
         
 env:
-  REPO_URL: https://github.com/aziz3000/lede.git
+  REPO_URL: https://github.com/aziz3000/By-gl-inet-openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  CONFIG_FILE: Gl-MT300n-V2.config
+  CONFIG_FILE: Gl-glinet-MT300n-V2.config
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
