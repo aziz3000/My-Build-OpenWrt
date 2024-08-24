@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt newifid2
+name: Build OpenWrt newifid2
 
 on:
   repository_dispatch:
