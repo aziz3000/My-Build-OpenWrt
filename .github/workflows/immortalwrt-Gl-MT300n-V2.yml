@@ -16,7 +16,7 @@ on:
 
 env:
   REPO_URL: https://github.com/aziz3000/immortalwrt.git
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: immortalwrt-GLMT300NV2.config
   DIY_P1_SH: immortalwrt_diy-part1.sh
