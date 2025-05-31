@@ -27,7 +27,7 @@ env:
 
 jobs:
    _GLMT300NV2_GLMT300NV2_64m:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
 
@@ -139,4 +139,4 @@ jobs:
         body: |
           # 未测试×
           
-          IP: 192.168.5.1 | Password: none
+          IP: 10.10.11.1 | Password: none
