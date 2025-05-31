@@ -1,7 +1,7 @@
 # Description: Build immortalwrt
 #
 
-name: Build immortalwrt-GLMT300NV2_GLMT300NV2_64m
+name: Build immortalwrt-GLMT300NV2_64m
 
 on:
   repository_dispatch:
