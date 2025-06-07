@@ -21,7 +21,7 @@ on:
         default: 'false'
         
 env:
-  REPO_URL: https://github.com/aziz3000/lede.git
+  REPO_URL: https://github.com/aziz3000/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   DIY_P1_SH: diy-part1.sh
