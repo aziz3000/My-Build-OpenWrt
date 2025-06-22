@@ -15,7 +15,7 @@ on:
  
 
 env:
-  REPO_URL: https://github.com/aziz3000/immortalwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: immortalwrt-GLMT300NV2.config
