@@ -12,6 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.11.1/g' package/base-files/files/bin/config_generate
+sed -i '/^VERSION_NUMBER:=$(if/ s/24\.10-SNAPSHOT/24.10-lenyu/' include/version.mk #24.10
 
 # Modify hostname
 #sed -i 's/ImmortalWrt/rax3000m_256m/g' package/base-files/files/bin/config_generate
