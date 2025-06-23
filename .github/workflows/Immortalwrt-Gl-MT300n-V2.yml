@@ -1,7 +1,7 @@
 # Description: Build immortalwrt
 #
 
-name: Immortalwrt-GLMT300NV2_64m
+name: Immortalwrt-GL-MT300N-v2_64m
 
 on:
   repository_dispatch:
@@ -22,11 +22,11 @@ env:
   DIY_P1_SH: immortalwrt_diy-part1.sh
   DIY_P2_SH: immortalwrt_diy-part2.sh
   TZ: Asia/Shanghai
-  DEVICE: GLMT300NV2_GLMT300NV2
+  DEVICE: GL-MT300N-v2
   UPLOAD_OUTPUT: true
 
 jobs:
-   _GLMT300NV2_GLMT300NV2_64m:
+   _GLMT300NV2_64m:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
