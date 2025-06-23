@@ -30,9 +30,9 @@ env:
   REPO_URL: --single-branch --filter=blob:none https://github.com/aziz3000/immortalwrt
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .diffconfig
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: immortalwrt_diy-part1.sh
+  DIY_P1_SH: immortalwrt_diy-part1.sh
+  DIY_P2_SH: immortalwrt_diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
