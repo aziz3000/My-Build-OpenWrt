@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenwrtR9_Gl-MT300n-V1
+name: OpenwrtR9_Gl-MT300n-V2
 
 on:
   repository_dispatch:
